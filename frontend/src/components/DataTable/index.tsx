@@ -50,12 +50,12 @@ const DataTable = () => {
                                 <td>{item.deals}</td>
                                 <td>{item.amount.toFixed(2)}</td>
                             </tr>
-                        ))};
+                        ))}
                 </tbody>
                 </table>
             </div>
         </>
-    );
+    )
 }
 
 export default DataTable;
